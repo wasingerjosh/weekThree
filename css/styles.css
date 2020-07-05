@@ -1,0 +1,111 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #30d482; 
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1 { 
+	font-family: 'Lora', sans-serif;
+	color:#e94f4f;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+h2 { 
+	font-family: 'Lora', sans-serif;
+	color:#9c6531;
+	/*font-size: 1.8em;*/
+	font-weight: bold;
+	margin-top: 20px;
+	line-height: .75;
+}
+
+h3 { 
+	font-family: 'Lora', sans-serif;
+	font-weight: bold;
+}
+
+
+/*This is the header*/
+#header-nav {
+	background-color: #17104e;  
+}
+
+/*Navigation*/
+#nav-list {
+  margin-top: 10px;
+  background-color: #804000; 
+}
+#nav-list a { 
+  color: #ffffff;
+  background: #171e7a;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #d46742;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #da7959;
+}
+
+
+#main-content a {
+	text-decoration: none;
+}
+
+.sectiontxt h3 {
+	padding: 5px 0px 15px 0px ;
+	margin: 10px 0px 0px 0px ;
+}
+
+div.sectiontxt{
+	margin: 10px;
+	background: #006080;
+	color: #e6f9ff;
+	padding: 15px;
+}
+
+.sectiontxt a {
+	color: #e2cd52;
+}
+
+.sectiontxt a:hover {
+	color: #ff9900;
+}
+
+
+
+/**Responsivness**/
+
+/**Large devices**/
+@media (min-width: 1200px) {
+.navbar-brand h1 {font-size: 2em;}
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.5em; }
+}
+
+/**Medium devices**/
+@media (min-width: 992px) and (max-width: 1199px) { 
+.navbar-brand h1 {font-size: 1.8em;}
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+}
+
+/**Small devices**/
+@media (min-width: 768px) and (max-width: 991px) { 
+.navbar-brand h1 {font-size: 1.5em;}
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.1em; }
+}
+
+/**Extra small devices **/
+@media (max-width: 767px) { 
+.navbar-brand h1 {font-size: 1.5em;} 
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.1em; }
+}
